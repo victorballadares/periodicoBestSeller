@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo">
+                    <h1>Best Sellers</h1>
+                </li>
+                <li id="no_user">
+                    <button id="btn_sign_up">Sign Up</button>
+                </li>
+                <li id="no_user">
+                    <button id="btn_sign_in">Sign In</button>
+                </li>
+                <li id="with_user">
+                    <button id="btn_favs">Favorites</button>
+                </li>
+                <li id="with_user">
+                    <button id="btn_sign_out">Sign Out</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="sign_up">
+            <h2>Sign Up</h2>
+            <form id="sign_up_form">
+                <input type="email" id="email_sign_up" required>
+                <input type="password" id="password_sign_up" required>
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div id="sign_in">
+            <h2>Sign In</h2>
+            <form id="sign_in_form">
+                <input type="email" id="email_sign_in" required>
+                <input type="password" id="password_sign_in" required>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div id="best_sellers">
+        </div>
+        <div id="list">
+        </div>
+        <div id="favorites">
+        </div>
+        <img src="spinner.png" id="loading" alt="Loading...">
+    </main>
+    <footer></footer>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
